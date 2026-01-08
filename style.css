@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Share Css */
+.fixed-width{
+max-width: 1170px;
+margin:0 auto;
+}
+
+/* Navbar section */
+#main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    background-color: #fff;
+}
+
+#main-nav .nav-left .logo{
+    max-width: 139px;
+    height: 60px;
+}
+
+.nav-menu .menu-list {
+    display: flex;
+    list-style: none;
+}
+.nav-menu .menu-list li{
+    max-width: 367px;
+    margin: 0 24px;
+
+}
+.nav-menu .menu-list li a{
+    text-decoration: none;
+    font-size: 16px;
+    width: 67px;
+    height: 24px;
+}
+
+
+.nav-right .nav-btn {
+    height: 44px;
+    width: 164px;
+    padding: 16px 12px;
+    border-radius: 4px;
+    background-color: #30B868;
+    line-height: 0;
+    color: #ffffff;
+    border: none;
+}
+.nav-right .nav-btn:hover{
+    background-color: rgb(223, 38, 38);
+}
+
+
+
+
+
+
