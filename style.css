@@ -26,6 +26,7 @@ img {
 #main-nav .nav-left .logo {
     max-width: 139px;
     height: 60px;
+    cursor: pointer;
 }
 
 .nav-menu .menu-list {
@@ -56,6 +57,7 @@ img {
     line-height: 0;
     color: #ffffff;
     border: none;
+    cursor: pointer;
 }
 
 .nav-right .nav-btn:hover {
@@ -68,31 +70,32 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    height: 600px;
+    height: 550px;
 }
+
 .here-info {
     width: 1170px;
     height: 379px;
     margin: auto;
 }
+
 .hero-content {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 96px;
 }
 
-.hero-top {}
 
 .hero-top p {
-    width: 222px;
-    height: 18px;
-    padding: 12px 8px;
+    width: 192px;
+    height: 1px;
+    padding: 13px 2px;
     background-color: #ffffff;
     color: #30B868;
     text-align: center;
     margin: auto;
-    line-height: 1;
+    line-height: 0;
     border-radius: 22px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .hero-mid {
@@ -107,16 +110,50 @@ img {
     font-weight: bold;
     margin-top: 10px;
 }
+
 .hero-mid h2 {
     font-size: 44px;
     color: #30B868;
     font-weight: bold;
 }
 
-.hero-mid p {}
+.hero-mid p {
+    width: 612px;
+    height: 60px;
+    margin: 14px auto;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1;
+}
 
-.hero-btn {}
+.hero-btn {
+    display: flex;
+    width: 289px;
+    height: 42px;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.hero-btn .hero-btn-left {}
+.hero-btn .hero-btn-left {
+    background-color: #30B868;
+    height: 22px;
+    color: #ffffff;
+    line-height: 19px;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.hero-btn .hero-btn-right {
+    height: 20px;
+    color: #ffffff;
+    line-height: 19px;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #fff;
+}
 
 .hero-btn .hero-btn-right {}
