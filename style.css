@@ -138,7 +138,7 @@ img {
 
 .hero-btn .hero-btn-left {
     background-color: #30B868;
-    height: 30px;
+    height: 22px;
     color: #ffffff;
     line-height: 19px;
     padding: 6px;
@@ -147,9 +147,9 @@ img {
 }
 
 .hero-btn .hero-btn-right {
-    height: 30px;
+    height: 22px;
     color: #ffffff;
-    line-height: 18px;
+    line-height: 24px;
     padding: 6px;
     border-radius: 4px;
     font-size: 14px;
@@ -247,6 +247,7 @@ img {
 .brain-left {
     width: 71%;
 }
+
 .brain-right .brain-right-content {
     width: 500px;
     height: 260px;
@@ -278,8 +279,7 @@ img {
 
 /* thing-section */
 .thing-section {
-    height: 500px;
-    border: 1px solid red;
+    height: 400px;
 }
 
 .think-section-wrap {
@@ -323,3 +323,44 @@ img {
     border-radius: 4px;
     border: none;
 }
+.think-bottom .think-btn .access-btn:hover{
+    background-color: red;
+}
+
+/* Footer sectio */
+.footer-section {
+    height: 365px;
+    background-color: #001931;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.social-icon {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-ling {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom h1 {
+    font-size: 20px;
+    color: #FAFAFA;
+}
+
+.social-icon li {}
+
+.social-icon li i {}
