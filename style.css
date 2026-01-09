@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /* Share Css */
@@ -69,7 +68,6 @@ img {
     background-image: url(./assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
     height: 550px;
 }
 
@@ -79,11 +77,13 @@ img {
     margin: auto;
 }
 
-.hero-content {
+.here-info .hero-content {
     text-align: center;
-    margin-top: 96px;
 }
 
+.hero-top {
+    padding-top: 117px;
+}
 
 .hero-top p {
     width: 192px;
@@ -156,4 +156,13 @@ img {
     border: 1px solid #fff;
 }
 
-.hero-btn .hero-btn-right {}
+/* Hover part */
+.hero-btn .hero-btn-left:hover {
+    background-color: red;
+    color: #000000;
+}
+
+.hero-btn .hero-btn-right:hover {
+    background-color: red;
+    color: #000000;
+}
