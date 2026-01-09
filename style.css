@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Share Css */
@@ -128,7 +129,7 @@ img {
 
 .hero-btn {
     display: flex;
-    width: 289px;
+    width: 308px;
     height: 42px;
     margin: 10px auto;
     text-align: center;
@@ -138,7 +139,7 @@ img {
 
 .hero-btn .hero-btn-left {
     background-color: #30B868;
-    height: 22px;
+    height: 30px;
     color: #ffffff;
     line-height: 19px;
     padding: 6px;
@@ -147,9 +148,9 @@ img {
 }
 
 .hero-btn .hero-btn-right {
-    height: 20px;
+    height: 30px;
     color: #ffffff;
-    line-height: 19px;
+    line-height: 18px;
     padding: 6px;
     border-radius: 4px;
     font-size: 14px;
@@ -165,4 +166,66 @@ img {
 .hero-btn .hero-btn-right:hover {
     background-color: red;
     color: #000000;
+}
+
+
+/* Note-section */
+.Note-section {
+    height: 400px;
+}
+.note-content {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.note-content .note-title h1 {
+    font-weight: bold;
+    color: #001931;
+}
+
+.note-content .note-sub-title p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.note-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+}
+
+.note-card .note-card-item {
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px 0px rgb(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-top: 32px;
+    height: 181px;
+}
+.note-card .note-card-item .icon {
+    background: red;
+    width: 39px;
+    height: 39px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 8px;
+    text-align: center;
+}
+
+.note-card .note-card-item h1 {
+    width: 240px;
+    height: 29px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin: 5px;
+}
+.note-card .note-card-item p {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    color: #627382;
+    margin-top: 24px;
+    font-size: 14px;
 }
