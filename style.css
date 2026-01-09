@@ -129,7 +129,7 @@ img {
 
 .hero-btn {
     display: flex;
-    width: 308px;
+    width: 330px;
     height: 42px;
     margin: 10px auto;
     text-align: center;
@@ -146,7 +146,6 @@ img {
     border-radius: 4px;
     font-size: 14px;
 }
-
 .hero-btn .hero-btn-right {
     height: 30px;
     color: #ffffff;
@@ -229,3 +228,45 @@ img {
     margin-top: 24px;
     font-size: 14px;
 }
+
+/* brain-section */
+.brain-section{
+    height: 500px;
+}
+.brain-section .brain-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 27px;
+    align-items: center;
+}
+.brain-left {
+    width: 71%;
+}
+.brain-left img{}
+.brain-right{}
+.brain-right .brain-right-content {
+    width: 500px;
+    height: 260px;
+}
+.brain-right .brain-right-content h4 {
+    color: #30B868;
+}
+.brain-right .brain-right-content h1 {
+    width: 400px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 10px 0;
+}
+.brain-right .brain-right-content p {
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
+}
+.brain-cntent-list {
+    list-style: none;
+    line-height: 33px;
+    margin-top: 20px;
+}
+.brain-cntent-list li{}
+.brain-cntent-list li img{}
